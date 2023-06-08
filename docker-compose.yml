@@ -4,7 +4,6 @@ version: '3.11'
 services:
   bot:
     build: .
-    image: davron754/alpine
     working_dir: /app
     container_name: aiogram_bot7
     environment:
